@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: radnika, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.box {
+  margin: 0 10px;
+  width: 410px;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+.box h2 {
+  font-size: 19px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.box .social-icon {
+  position: relative;
+  text-align: right;
+  transform: translate(0, -75px);
+  color: #ffc312;
+  font-size: 3em;
+}
+form {
+  text-align: center;
+}
+.input-field input {
+  width: 85%;
+  margin: 10px auto;
+  padding: 8.5px 12px;
+  outline: none;
+  border: 1px solid #acacac;
+  border-radius: 4px;
+}
+.input-field input:focus {
+  border: 2px solid #a1a0a0;
+}
+.field-icon {
+  position: relative;
+  background: #ffc312;
+  width: 28px;
+  height: 32px;
+  font-size: 16px;
+  margin: -11px -5px;
+}
+.check-box {
+  text-align: left;
+  margin: 10px 13px;
+}
+.check-box span {
+  padding-left: 8px;
+  color: #fff;
+  font-size: 15px;
+}
+.btn {
+  margin-top: 10px;
+}
+.btn button {
+  width: 85%;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  background: #0151ff;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.btn button:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.forget-password-field {
+  margin: 30px auto;
+}
+.forget-password-field p {
+  color: #434343;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.forget-password-field p a {
+  color: #0151ff;
+  text-decoration: none;
+}
+.forget-password-field p a:hover {
+  color: rgb(3, 3, 8);
+}
+
+@media screen and(max-width:676px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .box {
+    margin: 0 10px;
+    width: 320;
+    padding: 10px;
+  }
+}
